@@ -31,4 +31,10 @@ From the large dataset, I was able to narrow down the focus into customer review
 - According to the data, 51.06% of the Vine reviews came out to be 5-stars while 38.70% of the non-Vine reviews came out to be 5-stars.
 
 ## Summary
-From observing the results, we can see that there is in fact a positive bias for reviews from the Vine Program. 
+From observing the results, we can see that there is in fact a positive bias for reviews from the Vine Program. Seeing that 50.06% of Vine reviews were 5 star compared to the 38.70% of non-Vine reviews that were 5 star, we can conclude that there is a positivity bias for Vine reviews. That being said, these numbers alone wouldn't be a good way to make this claim.
+
+The best way to finalize our analysis would be to run a 2 sample t-test for proportions to compare the proportion of 5-star reviews for vine and use the non-Vine reviews as our population proportion. 
+
+![prop_test.png](images/prop_test.PNG)
+
+After running the test, we get a p-value of 0.009 < 0.05. We reject the null hypothesis (that they are the same) and can safely make the conclusion that the vine 5-star percentage is greater. 
